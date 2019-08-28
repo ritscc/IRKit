@@ -1,0 +1,7 @@
+(fp_lib_table
+  (lib (name digikey-footprints)(type KiCad)(uri /home/nekopanda/dev/rcc_kc3/digikey-kicad-library-master/digikey-footprints.pretty)(options "")(descr ""))
+  (lib (name ZX62-B-5PA_33_)(type Legacy)(uri ${KIPRJMOD}/ZX62-B-5PA_33/ZX62-B-5PA_33_.mod)(options "")(descr ""))
+  (lib (name BS170)(type Legacy)(uri ${KIPRJMOD}/BS170/BS170.mod)(options "")(descr ""))
+  (lib (name kc3_logo)(type KiCad)(uri ${KIPRJMOD}/kc3_logo.pretty)(options "")(descr ""))
+  (lib (name AKI-PARTS)(type KiCad)(uri ${KIPRJMOD}/AKI-PARTS.pretty)(options "")(descr ""))
+)
