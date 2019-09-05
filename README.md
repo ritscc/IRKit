@@ -20,6 +20,6 @@ This software is released under the MIT License, see LICENSE.
 
 # Authors
 RCC
-- aonori@aonrjp[https://aonr.jp]
-- nekopanda@hirotta3a[https://twitter.com/hirotta3a]
+- aonori@[aonrjp](https://aonr.jp]
+- nekopanda@[hirotta3a](https://twitter.com/hirotta3a)
 
