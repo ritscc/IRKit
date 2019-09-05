@@ -12,10 +12,8 @@ IRKit 基板設計データ
 
 # Setup
 1. `git clone https://github.com/ritscc/IRKit`
-1. Download & unzip ZX62-B-PA, BS170 FootPront to IRKit project directory
-
-# Usage
-
+1. Log in snapeda [https://www.snapeda.com/account/login/]
+1. Download & unzip ZX62-B-PA, BS170 FootPront to IRKit project directory[./IRKit/]
 
 # License
 This software is released under the MIT License, see LICENSE.
