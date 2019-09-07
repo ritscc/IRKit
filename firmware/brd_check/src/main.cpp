@@ -8,6 +8,10 @@ const char* password = "PASS";
 const int GREEN_LED = 33;
 const int USER_SW = 32;
 const int IR_RECEIVE = 17; 
+const int IR_LED = 4;
+
+// Function prototype
+void connectWiFi();
 
 void setup() {
   Serial.begin(BAUDRATE);
@@ -20,6 +24,7 @@ void setup() {
   pinMode(USER_SW, INPUT_PULLUP);
   pinMode(GREEN_LED, OUTPUT);
   pinMode(IR_RECEIVE, INPUT);
+  pinMode(IR_LED, OUTPUT);
 
   // Connect Wi-Fi
   connectWiFi();
@@ -29,6 +34,15 @@ void setup() {
 }
 
 void loop() {
+  // Push BLACK BUTTON Send IR LED
+  if( !digitalRead(USER_SW) ){
+    digitalWrite(IR_LED, HIGH);
+    delay(1);
+    digitalWrite(IR_LED, LOW);
+    delay(1);
+  }
+
+  // Receive IR LED ON
   digitalWrite(GREEN_LED, !digitalRead(IR_RECEIVE));
 }
 
