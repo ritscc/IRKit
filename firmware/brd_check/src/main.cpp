@@ -1,9 +1,15 @@
 #include <Arduino.h>
 
+const int GREEN_LED = 33;
+const int USER_SW = 32;
+
 void setup() {
-  // put your setup code here, to run once:
+  // Setup GPIO pin mode
+  pinMode(USER_SW, INPUT_PULLUP);
+  pinMode(GREEN_LED, OUTPUT);
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
+  digitalWrite(GREEN_LED, digitalRead(USER_SW));
+  delay(10);
 }
